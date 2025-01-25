@@ -19,7 +19,14 @@ const resources = {
           },
           "skills": "Skills & Technologies",
           "languages": "Programming Languages",
-          "frameworks": "Frameworks & libraries"
+          "frameworks": "Frameworks & libraries",
+          "projects": "My Projects",
+          "ecomeeting":{
+            "description": "EcoMeeting was a school project. A social network where people can share tips, ideas or arrange meetings to help the environment.",
+            "tips": "In this section people can share their tips and give them like or report them.",
+            "meetings": "People not only could arrange meetings, they can also post things related to the environment.",
+            "contact": "A simple form in which people can send suggestions, reports or contact us for any other issue."
+          }
         }
     },
     es: {
@@ -39,7 +46,14 @@ const resources = {
           },
           "skills": "Lenguajes & Tecnologías",
           "languages": "Lenguajes de Programación",
-          "frameworks": "Frameworks & Librerías"
+          "frameworks": "Frameworks & Librerías",
+          "projects": "Mis Proyectos",
+          "ecomeeting":{
+            "description": "EcoMeeting fue un proyecto escolar. Una red social donde la gente puede compartir tips, ideas u organizarse para ayudar al medioambiente.",
+            "tips": "En esta sección la gente puede compartir sus tips y las personas podríandar me gusta o reportarlos.",
+            "meetings": "Además de realizar reuniones, la gente puede publicar cosas relacionadas con el medioambiente.",
+            "contact": "Un formulario sencillo en el cual la gente puede enviar sugerencias, reportes o contactarnos para algún otro tema."
+          }
         }
     }
 };

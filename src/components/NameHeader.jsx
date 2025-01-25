@@ -5,7 +5,8 @@ export const NameHeader = () => {
   const {t} = useTranslation();
 
   return (
-    <div className='flex flex-col w-full paddingCards items-center justify-center rounded-2xl shadow-2xl bg-primary md:text-center md:h-96 md:max-h-96'>
+    <div
+      className='flex flex-col w-full paddingCards items-center justify-center rounded-2xl shadow-2xl bg-primary md:text-center md:h-96 md:max-h-96'>
       <div className='font-semibold font-fancy'>
         <motion.p
           initial={{opacity: 0, y: -30}}
@@ -58,14 +59,14 @@ export const NameHeader = () => {
               scale: 1.1,
             }}
           >
-            <a href='#'>LinkedIn</a>
+            <a href='https://www.linkedin.com/in/daniel-bustos-ruiz/' target={'_blank'}>LinkedIn</a>
           </motion.li>
           <motion.li
             whileHover={{
               scale: 1.1,
             }}
           >
-            <a href='#'>GitHub</a>
+            <a href='https://github.com/DannyB935' target={'_blank'}>GitHub</a>
           </motion.li>
         </motion.ul>
       </div>

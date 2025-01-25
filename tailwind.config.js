@@ -10,6 +10,7 @@ export default {
         "primary": "#F2AA80",
         "secondary": "#F2D5C4",
         "third": "#BF8069",
+        "fourth": "#3F3F4A",
         "back": "#8EA3BF"
       },
       fontFamily:{

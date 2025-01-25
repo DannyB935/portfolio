@@ -31,6 +31,10 @@ body{
     @apply py-8 px-6;
 }
 
+.cardTitles{
+    font-size: 32px;
+}
+
 @media (max-width: 900px){
     .secondaryText{
         font-size: 20px;
