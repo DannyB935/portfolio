@@ -2,6 +2,7 @@ import {Toolbar} from "./components/Toolbar.jsx";
 import {NameHeader} from "./components/NameHeader.jsx";
 import {WorkExperience} from "./components/WorkExperience.jsx";
 import {Skills} from "./components/Skills.jsx";
+import {CashPlan} from "./components/CashPlan.jsx";
 import {EcoMeeting} from "./components/EcoMeeting.jsx";
 
 import {motion} from "motion/react"
@@ -31,6 +32,9 @@ function App() {
         >
           {t('projects')}
         </motion.h1>
+      </section>
+      <section>
+        <CashPlan/>
       </section>
       <section>
         <EcoMeeting/>
