@@ -30,11 +30,17 @@ body{
 }
 
 .dark-theme{
-    --primary-mine: #333333;
-    --secondary-mine: #4D4D4D;
-    --third-mine: #8C8C8C;
-    --fourth-mine: #3F3F4A;
-    --back-mine: #0D0D0D;
+    /*--primary-mine: #333333;*/
+    /*--secondary-mine: #4D4D4D;*/
+    /*--third-mine: #8C8C8C;*/
+    /*--fourth-mine: #3F3F4A;*/
+    /*--back-mine: #0D0D0D;*/
+    /*--contrast-mine: #FFF;*/
+    --primary-mine: #1B2432;
+    --secondary-mine: #2C2B3C;
+    --third-mine: #403F4C;
+    --fourth-mine: #B76D68;
+    --back-mine: #121420;
     --contrast-mine: #FFF;
 }
 
