@@ -21,6 +21,9 @@ const resources = {
           "languages": "Programming Languages",
           "frameworks": "Frameworks & libraries",
           "projects": "My Projects",
+          "language": "Languages",
+          "spanish": "Spanish",
+          "english": "English",
           "ecomeeting":{
             "description": "EcoMeeting was a school project. A social network where people can share tips, ideas or arrange meetings to help the environment.",
             "tips": "In this section people can share their tips and give them like or report them.",
@@ -48,6 +51,9 @@ const resources = {
           "languages": "Lenguajes de Programación",
           "frameworks": "Frameworks & Librerías",
           "projects": "Mis Proyectos",
+          "language": "Idiomas",
+          "spanish": "Español",
+          "english": "Inglés",
           "ecomeeting":{
             "description": "EcoMeeting fue un proyecto escolar. Una red social donde la gente puede compartir tips, ideas u organizarse para ayudar al medioambiente.",
             "tips": "En esta sección la gente puede compartir sus tips y las personas podríandar me gusta o reportarlos.",

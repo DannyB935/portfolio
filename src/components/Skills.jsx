@@ -5,7 +5,7 @@ export const Skills = () => {
   const {t} = useTranslation();
 
   return (
-    <div className='flex flex-col paddingCards items-center justify-center rounded-2xl shadow-2xl bg-secondary md:h-96 md:max-h-96'>
+    <div className='flex flex-col paddingCards items-center justify-center rounded-2xl shadow-2xl bg-secondary-mine md:h-96 md:max-h-96'>
       <motion.div
         className={'flex flex-col'}
         initial={{opacity: 0, y: -30}}
@@ -16,12 +16,12 @@ export const Skills = () => {
           ease: 'linear', type: 'spring'
         }}
       >
-        <h3 className={'text-gray-700 mb-6 italic text-center'}>{t('skills')}</h3>
+        <h3 className={'text-contrast-mine mb-6 italic text-center'}>{t('skills')}</h3>
         <div className={'grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10'}>
 
           <div className={'secondaryText ml-4'}>
-            <h5 className={'text-gray-700'}>{t('languages')}</h5>
-            <ul className={'space-y-2 text-gray-600 list-disc smallText'}>
+            <h5 className={'text-contrast-mine'}>{t('languages')}</h5>
+            <ul className={'space-y-2 text-contrast-mine list-disc smallText'}>
               <li>Python</li>
               <li>JavaScript/TypeScript</li>
               <li>C#</li>
@@ -31,8 +31,8 @@ export const Skills = () => {
           </div>
 
           <div className={'secondaryText ml-4'}>
-            <h5 className={'text-gray-700'}>{t('frameworks')}</h5>
-            <ul className={'space-y-2 text-gray-600 list-disc smallText'}>
+            <h5 className={'text-contrast-mine'}>{t('frameworks')}</h5>
+            <ul className={'space-y-2 text-contrast-mine list-disc smallText'}>
               <li>React, Vue, Angular</li>
               <li>Flask, FastAPI, .NET Core 8</li>
               <li>TailwindCSS, Bootstrap 5, Webix</li>

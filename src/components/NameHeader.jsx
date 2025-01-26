@@ -6,7 +6,7 @@ export const NameHeader = () => {
 
   return (
     <div
-      className='flex flex-col w-full paddingCards items-center justify-center rounded-2xl shadow-2xl bg-primary md:text-center md:h-96 md:max-h-96'>
+      className='flex flex-col w-full paddingCards items-center justify-center rounded-2xl shadow-2xl bg-primary-mine md:text-center md:h-96 md:max-h-96'>
       <div className='font-semibold font-fancy'>
         <motion.p
           initial={{opacity: 0, y: -30}}

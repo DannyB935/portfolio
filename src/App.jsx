@@ -1,3 +1,4 @@
+import {Toolbar} from "./components/Toolbar.jsx";
 import {NameHeader} from "./components/NameHeader.jsx";
 import {WorkExperience} from "./components/WorkExperience.jsx";
 import {Skills} from "./components/Skills.jsx";
@@ -12,13 +13,14 @@ function App() {
   return (
     <>
       <section>
+        <Toolbar/>
         <NameHeader/>
         <div className='w-full my-4 md:my-12 grid grid-cols-1 md:grid-cols-2 gap-6'>
           <WorkExperience/>
           <Skills/>
         </div>
         <motion.h1
-          className={'text-black text-center'}
+          className={'text-contrast-mine text-center'}
           initial={{opacity: 0, y: -30}}
           animate={{opacity: 1, y: 0}}
           transition={{

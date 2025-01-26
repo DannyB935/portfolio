@@ -5,7 +5,7 @@ export const WorkExperience = () => {
   const {t} = useTranslation();
 
   return (
-    <div className='flex flex-col paddingCards items-center justify-center rounded-2xl shadow-2xl bg-secondary md:h-96 md:max-h-96'>
+    <div className='flex flex-col paddingCards items-center justify-center rounded-2xl shadow-2xl bg-secondary-mine md:h-96 md:max-h-96'>
       <motion.div
         className={'flex flex-col'}
         initial={{opacity: 0, y: -30}}
@@ -16,19 +16,19 @@ export const WorkExperience = () => {
           ease: 'linear', type: 'spring'
         }}
       >
-        <h3 className={'text-center text-gray-700 mb-6 italic'}>{t('work')}</h3>
+        <h3 className={'text-center text-contrast-mine mb-6 italic'}>{t('work')}</h3>
         <ul className={'space-y-4'}>
           <li>
-            <p className={'secondaryText text-gray-600'}>
+            <p className={'secondaryText text-contrast-mine'}>
               {t('second-job.title')} - Universidad de Guadalajara
             </p>
-            <p className={'smallText text-gray-600'}>{t('second-job.start')} - {t('second-job.finish')}</p>
+            <p className={'smallText text-contrast-mine'}>{t('second-job.start')} - {t('second-job.finish')}</p>
           </li>
           <li>
-            <p className={'secondaryText text-gray-600'}>
+            <p className={'secondaryText text-contrast-mine'}>
               {t('first-job.title')} - Universidad de Guadalajara
             </p>
-            <p className={'smallText text-gray-600'}>{t('first-job.start')} - {t('first-job.finish')}</p>
+            <p className={'smallText text-contrast-mine'}>{t('first-job.start')} - {t('first-job.finish')}</p>
           </li>
         </ul>
       </motion.div>
