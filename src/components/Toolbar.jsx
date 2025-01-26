@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
   DropdownMenuPortal
 } from "@/components/ui/dropdown-menu"
-import { Moon, Sun, Languages } from "lucide-react";
+import { Moon, Sun, Languages, Mail } from "lucide-react";
 import i18next from "../i18n/i18n.js";
 import {useTranslation} from "react-i18next";
 
@@ -58,7 +58,7 @@ export const Toolbar = () =>{
 
   return(
     <nav className={'flex mb-4 gap-4'}>
-      <span className={'flex-grow'}></span>
+      <span className={'flex-grow flex gap-2 smallText'}> <Mail/> daniel.bustos935@hotmail.com </span>
       <Button onClick={()=>changeTheme()}
               variant={'outline'} className={'bg-primary-mine hover:bg-secondary-mine'}
               size={'icon'}

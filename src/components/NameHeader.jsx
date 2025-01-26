@@ -52,7 +52,7 @@ export const NameHeader = () => {
               scale: 1.1,
             }}
           >
-            <a href='#'>{t('resume')}</a>
+            <a href='/src/assets/DanielBustosRuiz_Resume.pdf' target={'_blank'}>{t('resume')}</a>
           </motion.li>
           <motion.li
             whileHover={{

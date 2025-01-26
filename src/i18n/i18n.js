@@ -6,6 +6,7 @@ const resources = {
         translation: {
           "my-description": "I'm a full-stack developer who likes creating great frontend designs to give great user experiences. I also build backends with ease and enjoy learning new tools and technologies",
           "resume": "Resume",
+          "email": "Email me at: ",
           "work": "Work experience",
           "first-job": {
             "title": "Maintenance on informatic systems",
@@ -55,6 +56,7 @@ const resources = {
         translation: {
           "my-description": "Soy un desarrollador full-stack que le gusta crear grandes diseños frontend para dar grandes experiencias de usuario. También puedo crear backends con facilidad y disfruto aprendiendo nuevas herramientas y tecnologías",
           "resume": "Curriculum Vitae",
+          "email": "Contacto: ",
           "work": "Experiencia laboral",
           "first-job": {
             "title": "Matenimiento de sistemas informaticos",
