@@ -1,7 +1,7 @@
 import {motion} from 'motion/react';
 import {useTranslation} from "react-i18next";
 
-import {EcoImages} from "../assets/ecomeeting/images.js";
+import {EcoImages} from "../assets/images.js";
 
 export const EcoMeeting = () =>{
 

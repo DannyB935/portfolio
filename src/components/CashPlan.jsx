@@ -7,22 +7,22 @@ export const CashPlan = () =>{
 
   const cashImages = [
     {
-      "image": "/src/assets/cashplan/CashLand.png",
+      "image": "cashplan/CashLand.png",
       "title": t('cashplan.landing.title'),
       "description": t('cashplan.landing.description'),
     },
     {
-      "image": "/src/assets/cashplan/CashExp.png",
+      "image": "cashplan/CashExp.png",
       "title": t('cashplan.expenses.title'),
       "description":  t('cashplan.expenses.description'),
     },
     {
-      "image": "/src/assets/cashplan/CashGoal.png",
+      "image": "cashplan/CashGoal.png",
       "title": t('cashplan.goals.title'),
       "description":  t('cashplan.goals.description'),
     },
     {
-      "image": "/src/assets/cashplan/CashSave.png",
+      "image": "cashplan/CashSave.png",
       "title": t('cashplan.savings.title'),
       "description":  t('cashplan.savings.description'),
     }

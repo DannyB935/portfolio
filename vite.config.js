@@ -14,5 +14,10 @@ export default defineConfig({
   },
   server:{
     host: true,
-  }
+  },
+  build:{
+    outDir: '/var/wwwroot/daniel',
+    emptyOutDir: true,
+  },
+  base: '/daniel/'
 })
